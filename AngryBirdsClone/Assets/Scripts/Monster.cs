@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +9,25 @@ public class Monster : MonoBehaviour
     [SerializeField] Sprite _deadSprite;
     [SerializeField] ParticleSystem _particleSystem;
 
-    private bool _hasDied;
+    bool _hasDied;
+
+    void OnMouseDown()
+    {
+        GetComponent<AudioSource>().Play();
+    }
+
+    IEnumerator Start()
+    {
+        while (_hasDied == false)
+        {
+            float delay = UnityEngine.Random.Range(5, 30);
+            yield return new WaitForSeconds(delay);
+            if (_hasDied == false)
+            {
+                GetComponent<AudioSource>().Play();
+            }
+        }
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
