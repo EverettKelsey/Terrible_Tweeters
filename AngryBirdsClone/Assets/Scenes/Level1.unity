@@ -2641,6 +2641,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 72710793121766811, guid: dcad874eb0100f84bbbe5e1f839d5d38, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 72710793121766811, guid: dcad874eb0100f84bbbe5e1f839d5d38, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcad874eb0100f84bbbe5e1f839d5d38, type: 3}
 --- !u!4 &1516978882 stripped
@@ -3508,7 +3516,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 72710793121766789, guid: dcad874eb0100f84bbbe5e1f839d5d38, type: 3}
       propertyPath: m_Name
-      value: PurpleMonster
+      value: SlimeMonster
       objectReference: {fileID: 0}
     - target: {fileID: 72710793121766808, guid: dcad874eb0100f84bbbe5e1f839d5d38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3575,13 +3583,21 @@ PrefabInstance:
       propertyPath: m_Targets.Array.data[2].target
       value: 
       objectReference: {fileID: 1516978882}
+    - target: {fileID: 1815402439885047111, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11982736
+      objectReference: {fileID: 0}
+    - target: {fileID: 1815402439885047111, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.45357063
+      objectReference: {fileID: 0}
     - target: {fileID: 1815402440200838199, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
       propertyPath: orthographic size
       value: 4.9621615
       objectReference: {fileID: 0}
     - target: {fileID: 1815402440200838344, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.48500022
+      value: 0.48500025
       objectReference: {fileID: 0}
     - target: {fileID: 1815402440200838344, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3593,7 +3609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1815402441080605949, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.48500022
+      value: 0.48500025
       objectReference: {fileID: 0}
     - target: {fileID: 1815402441080605949, guid: 51ac418a70a55de4e9712d230d8b1152, type: 3}
       propertyPath: m_LocalPosition.y
